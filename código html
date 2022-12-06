@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       
+       
+  
+        <h1>Coffee</h1> 
+        <h2>O Café perfeito para você!</h2>
+        
+
+        <button><a href="#">inicio</a></button>
+        <button><a href="#">login</a></button>
+    
+
+    </header>
+
+    
+       
+
+<br> <br>
+
+<div class="CafeExpresso">
+    <img src="exemplo1/img/CafeExpresso.jpg" alt=""  width="270px" height="270px">
+<p>CAFÈ EXPRESSO</p>
+<p>R$10,00</p>
+<button><a href="#">COMPRAR</a></button>
+</div>
+
+<div class="CafecomLeite">
+    <img src="exemplo1/img/CafecomLeite.jpg" alt=""  width="300px" height="270px">
+<p>CAFÈ COM LEITE</p>
+<p>R$10,00</p>
+<button><a href="#">COMPRAR</a></button>
+</div>
+
+<div class="CafeAmericano">
+    <img src="exemplo1/img/CafeAmericano.webp" alt=""  width="270px">
+<p>CAFÈ AMERICANO </p>
+<p>R$5,00</p>
+<button><a href="#">COMPRAR</a></button>
+</div>
+
+<div class="CafeDalgona">
+    <img src="exemplo1/img/CafeDalgona.jpeg" alt=""  width="300px" height="270px">
+<p>CAFÈ DALGONA</p>
+ <p>R$12,00</p>
+ <button><a href="#">COMPRAR</a></button>
+</div>
+
+<div class="CafeCanela">
+    <img src="exemplo1/img/CafeCanela.jpeg" alt=""  width="270px">
+<p>CAFÈ COM CANELA</p>
+<p>R$8,00</p>
+<button><a href="#">COMPRAR</a></button>
+</div>
+
+<div class="CafeCappuccino">
+    <img src="exemplo1/img/CafeCappuccino.jpeg" alt=""  width="270px">
+<p>CAFÈ CAPPUCCINO</p>
+<p>R$10,00</p>
+<button><a href="#">COMPRAR</a></button>
+</div>
+
+
+    <footer>
+        <h3>Suporte</h3>
+        <h3>Sobre nós</h3>
+        <h3>Redes Sociais</h3>
+    </footer>
+</body>
+</html>
+
+<style>
+    body{
+    background-color: blanchedalmond;
+    }
+    header{
+    background-color: navajowhite;
+    width: 15000px;
+    height: 150px;
+    
+    }
+    footer{
+        background-color: black;
+        color: white;
+        clear: both;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    img{
+        margin: 70px;
+        border-radius: 10px;
+    }
+    .CafeExpresso{
+        text-align: center;
+        float: left;
+    }
+    .CafecomLeite{
+        text-align: center;
+        float: left;
+    }
+    .CafeAmericano{
+        text-align: center;
+        float: left;
+    }     
+    .CafeDalgona{
+        text-align: center;
+        float: left;
+    }    
+    .CafeCanela{
+        text-align: center;
+        float: left;
+    }
+    .CafeCappuccino{
+        text-align: center;
+        float: left;
+    }
+   button{
+    border-radius: 5px;
+    background-color:beige;
+    padding: 10px;
+   border: solid 1px;
+   left: 45%;
+   
+   }
+   a{
+    text-decoration: none;
+    color: black;
+   }
+   
+   
+   
+    
+  
+    
+</style>
+
